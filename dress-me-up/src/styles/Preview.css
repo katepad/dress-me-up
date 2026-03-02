@@ -1,0 +1,12 @@
+
+.preview {
+  position: absolute;
+  top: 10%;
+  right:10%;
+  width: 384px;
+  height: auto; /* keep correct aspect ratio */
+}
+
+.necklace {
+  z-index: 5; /* necklace on top */
+}

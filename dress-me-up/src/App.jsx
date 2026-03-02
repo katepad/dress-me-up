@@ -1,18 +1,15 @@
-import { useState } from 'react'
-import './App.css'
-import base from './assets/base.png'
-import baseTop from './assets/tops/baseTop.png'
-import baseBottom from './assets/bottoms/baseBottoms.png'
+
+import Preview from './components/Preview'
+import Selector from './components/Selector'
+import './styles/Global.css'
 
 function App() {
 
   return (
     <>
-      <div className="dress-up-preview">
-        <img src={base}/>
-        <img src={baseTop}/>
-        <img src={baseBottom}/>
-      </div>
+      <h1>DRESS ME UP</h1>
+        <Selector />
+        <Preview />
     </>
   )
 }

@@ -1,0 +1,73 @@
+
+.selector-container {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    width: 50%;
+    height: auto;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 5rem;
+    gap: 5rem;
+}
+
+.selector-div {
+    height: 150px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px; /* Add some space between the elements */
+}
+
+.arrow {
+    width: 64px;
+    height: 64px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.selected-tops {
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    object-position: center 45%;
+}
+
+.selected-bottoms {
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    object-position: center 80%;
+}
+
+.selected-shoes {
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    object-position: center 105%;
+}
+
+.selected-overwear {
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    object-position: center 45%;
+}
+
+.overwear {
+    z-index: 4;
+}
+
+.tops {
+    z-index: 3;
+}
+
+.bottoms {
+    z-index: 2;
+}
+
+.shoes {
+    z-index: 1;
+}
